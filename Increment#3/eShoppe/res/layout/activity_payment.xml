@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Payment Details"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.59" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_deliveryaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="9dip"
+                android:layout_marginTop="20dip"
+                android:text="Delivery Address"
+                android:textColor="#444444"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/et_deliveryaddress"
+                android:layout_width="246dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_marginLeft="10dip"
+                android:layout_height="wrap_content"
+			/>
+            
+            <TextView
+                android:id="@+id/tv_accountno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="9dip"
+                android:layout_marginTop="20dip"
+                android:text="Account Number"
+                android:textColor="#444444"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/et_accountno"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:layout_marginLeft="10dip"
+                android:inputType="" />
+
+            <TextView
+                android:id="@+id/tv_PType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="9dip"
+                android:layout_marginTop="20dip"
+                android:text="Payment Type"
+                android:textColor="#444444"
+                android:textSize="10pt" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:entries="@array/PType_arrays"
+                android:prompt="@string/PType_prompt"
+                android:layout_marginLeft="10dip"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/tv_expdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="9dip"
+                android:layout_marginTop="20dip"
+                android:text="Exp Date"
+                android:textColor="#444444"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/et_expdate"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="9dip"
+                android:layout_marginTop="20dip"
+                android:text="Amount"
+                android:textColor="#444444"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/et_amount"
+                android:layout_marginLeft="10dip"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnpaysub"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="Submit" 
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\aspnet_client\Group4\Hackathon2\bin\Hackathon2.dll
+C:\inetpub\wwwroot\aspnet_client\Group4\Hackathon2\bin\Hackathon2.pdb
+C:\inetpub\wwwroot\aspnet_client\Group4\Hackathon2\obj\Debug\Hackathon2.dll
+C:\inetpub\wwwroot\aspnet_client\Group4\Hackathon2\obj\Debug\Hackathon2.pdb
+C:\inetpub\wwwroot\aspnet_client\Group4\Hackathon2\obj\Debug\Hackathon2.csprojResolveAssemblyReference.cache
